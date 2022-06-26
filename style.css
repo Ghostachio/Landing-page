@@ -64,3 +64,51 @@
     height: 220px;
     background-color: lightgrey;
 }
+
+.headline{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 20px 40px;
+    padding-left: 540px;
+
+}
+.info-container{
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    justify-content: center;
+    padding: 10px 10px
+}
+
+.info-boxes{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    gap: 10px;
+
+}
+
+.image-box{
+    height: 100px;
+    width: 100px;
+    background-color:#f9faf8;
+    align-self: center;
+    border-color:#3882f6;
+    border-radius: 10px;
+    border-style:outset;
+    
+    
+}
+
+.subtext-boxes{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-around;
+    padding: 10px 440px;
+    gap: 11px;
+    align-items: center;
+    flex-shrink: 0;
+
+}
