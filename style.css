@@ -70,15 +70,15 @@
     font-weight: bolder;
     color: #1f2937;
     padding: 20px 40px;
-    padding-left: 540px;
-
+    text-align: center;
 }
 .info-container{
     display: flex;
     background-color: white;
     padding: 15px;
     justify-content: center;
-    padding: 10px 10px
+    padding: 10px 10px;
+    gap: 30px;
 }
 
 .info-boxes{
@@ -87,7 +87,6 @@
     padding: 0px;
     margin: 0px;
     gap: 10px;
-
 }
 
 .image-box{
@@ -97,18 +96,86 @@
     align-self: center;
     border-color:#3882f6;
     border-radius: 10px;
-    border-style:outset;
-    
+    border-style:solid;   
+}
+
+
+.box-all{
+    width: 100px;
     
 }
 
-.subtext-boxes{
+.info-boxes{
     display: flex;
-    font-size: 10px;
-    justify-content: space-around;
-    padding: 10px 440px;
-    gap: 11px;
-    align-items: center;
-    flex-shrink: 0;
+    gap: 30px;
 
 }
+.subtext{
+    text-align: justify;
+}
+
+.quotes-container{
+    background-color: #e5e7eb;
+    padding: 50px;
+    display: flex;
+}
+
+.quote{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote p{
+    font-style:italic;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+small{
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.signup-container{
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.action-container{
+    color: #f9faf8;
+    font-size: small;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    min-width: 600px;
+    padding: 30px 50px;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.action-container button{
+    background-color: #3882f6;
+    border-color:#e5e7eb;
+    padding: 3px 20px;
+    border-radius: 3px;
+    border-style: solid;
+    color: #f9faf8;
+    font-weight: bold;
+    
+}
+.footer{
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 20px 100px;
+    font-size: 12px;
+    text-align: center;
+    
+    
+}
+
